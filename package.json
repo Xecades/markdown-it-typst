@@ -1,0 +1,42 @@
+{
+    "name": "markdown-it-typst",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "Plugin to transform Typst code to SVG image for markdown-it markdown parser.",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib/**/*"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest",
+        "test:ui": "vitest --ui",
+        "test:run": "vitest run",
+        "prepare": "npm run build",
+        "prepublishOnly": "npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xecades/markdown-it-typst.git"
+    },
+    "keywords": [
+        "markdown",
+        "markdown-it",
+        "typst"
+    ],
+    "author": "Xecades <i@xecades.xyz>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/xecades/markdown-it-typst/issues"
+    },
+    "homepage": "https://github.com/xecades/markdown-it-typst",
+    "devDependencies": {
+        "@myriaddreamin/typst-ts-node-compiler": "^0.5.0-rc7",
+        "@types/markdown-it": "^14.1.2",
+        "@vitest/ui": "^2.1.1",
+        "markdown-it": "^14.1.0",
+        "vite": "^5.4.5",
+        "vitest": "^2.1.1"
+    }
+}
