@@ -1,5 +1,11 @@
 # markdown-it-typst
 
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![bundle][bundle-src]][bundle-href]
+[![JSDocs][jsdocs-src]][jsdocs-href]
+[![License][license-src]][license-href]
+
 A simple [`typst.ts`](https://github.com/Myriad-Dreamin/typst.ts) wrapper that adds [Typst](https://github.com/typst/typst) support to [`markdown-it`](https://github.com/markdown-it/markdown-it).
 
 **WARNING**: It's NOT recommended to run this plugin on browser side, as it is not optimized for tree-shaking. (See [`typst.ts` Documentation](https://myriad-dreamin.github.io/typst.ts/cookery/guide/all-in-one-node.html)) However, utilizing the browser-side version of `typst.ts` is still possible, any PRs regarding this are welcome.
@@ -205,3 +211,16 @@ const md = new MarkdownIt().use(MarkdownItTypst, {
 ## License
 
 [MIT](./LICENSE) License © 2024 [Xecades](https://github.com/xecades)
+
+<!-- Badges from markdown-it-mdc -->
+
+[npm-version-src]: https://img.shields.io/npm/v/markdown-it-typst?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/markdown-it-typst
+[npm-downloads-src]: https://img.shields.io/npm/dm/markdown-it-typst?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/markdown-it-typst
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/markdown-it-typst?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=markdown-it-typst
+[license-src]: https://img.shields.io/github/license/xecades/markdown-it-typst.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/xecades/markdown-it-typst/blob/main/LICENSE
+[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
+[jsdocs-href]: https://www.jsdocs.io/package/markdown-it-typst
