@@ -13,7 +13,7 @@
         "test": "vitest",
         "test:ui": "vitest --ui",
         "test:run": "vitest run",
-        "prepare": "npm run build"
+        "prepublishOnly": "npm run build"
     },
     "repository": {
         "type": "git",
@@ -30,12 +30,18 @@
         "url": "https://github.com/xecades/markdown-it-typst/issues"
     },
     "homepage": "https://github.com/xecades/markdown-it-typst",
+    "dependencies": {
+        "@myriaddreamin/typst-ts-node-compiler": "^0.5.0-rc7"
+    },
     "devDependencies": {
-        "@myriaddreamin/typst-ts-node-compiler": "^0.5.0-rc7",
         "@types/markdown-it": "^14.1.2",
+        "@types/node": "^22.5.5",
         "@vitest/ui": "^2.1.1",
         "markdown-it": "^14.1.0",
         "vite": "^5.4.5",
         "vitest": "^2.1.1"
+    },
+    "peerDependencies": {
+        "markdown-it": "^14.0.0"
     }
 }
