@@ -20,7 +20,7 @@ npm install markdown-it-typst
 
 ```ts
 import MarkdownIt from "markdown-it";
-import MarkdownItTypst from "./lib/index";
+import MarkdownItTypst from "markdown-it-typst";
 
 const md = new MarkdownIt().use(MarkdownItTypst);
 const code = `
@@ -50,7 +50,7 @@ console.log(html);
 // </div>
 ```
 
-The code above will render the following web page:
+The code above will render the following web page (Without additional styling):
 
 ![](./images/result1.png)
 
