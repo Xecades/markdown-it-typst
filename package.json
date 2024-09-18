@@ -1,7 +1,7 @@
 {
     "name": "markdown-it-typst",
     "type": "module",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Plugin to transform Typst code to SVG image for markdown-it markdown parser.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
