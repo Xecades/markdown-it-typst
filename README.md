@@ -15,12 +15,12 @@ A simple [`typst.ts`](https://github.com/Myriad-Dreamin/typst.ts) wrapper that a
 ## Usage
 
 ```bash
-npm install markdown-it-typst
+npm install @xecades/markdown-it-typst
 ```
 
 ```ts
 import MarkdownIt from "markdown-it";
-import MarkdownItTypst from "markdown-it-typst";
+import MarkdownItTypst from "@xecades/markdown-it-typst";
 
 const md = new MarkdownIt().use(MarkdownItTypst);
 const code = `
