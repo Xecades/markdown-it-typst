@@ -210,17 +210,17 @@ const md = new MarkdownIt().use(MarkdownItTypst, {
 
 ## License
 
-[MIT](./LICENSE) License © 2024 [Xecades](https://github.com/xecades)
+[MIT](./LICENSE) License © 2024-present [Xecades](https://github.com/xecades)
 
 <!-- Badges from markdown-it-mdc -->
 
-[npm-version-src]: https://img.shields.io/npm/v/markdown-it-typst?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/markdown-it-typst
-[npm-downloads-src]: https://img.shields.io/npm/dm/markdown-it-typst?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/markdown-it-typst
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/markdown-it-typst?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=markdown-it-typst
+[npm-version-src]: https://img.shields.io/npm/v/@xecades/markdown-it-typst?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://www.npmjs.com/package/@xecades/markdown-it-typst
+[npm-downloads-src]: https://img.shields.io/npm/dm/@xecades/markdown-it-typst?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://www.npmjs.com/package/@xecades/markdown-it-typst
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/%40xecades%2Fmarkdown-it-typst?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=@xecades/markdown-it-typst
 [license-src]: https://img.shields.io/github/license/xecades/markdown-it-typst.svg?style=flat&colorA=080f12&colorB=1fa669
 [license-href]: https://github.com/xecades/markdown-it-typst/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/markdown-it-typst
+[jsdocs-href]: https://www.jsdocs.io/package/@xecades/markdown-it-typst
